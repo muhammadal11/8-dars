@@ -1,0 +1,248 @@
+/* open-sans-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v29-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v29-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v29-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v29-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  max-width: 100vw;
+  background-color: #fff;
+}
+
+.container {
+  width: 1225px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex-box {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.nav-logo {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.logo-link {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.logo-image {
+  margin-left: 0;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+  margin-left: 114.5px;
+}
+
+.links {
+  text-decoration: none;
+  color: #222222;
+  margin-right: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.links:nth-child(5) {
+  margin-right: 0;
+}
+
+.qabul {
+  text-decoration: none;
+  color: #fff;
+  background-color: #DE2E54;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  margin-left: 138.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.first-page {
+  max-width: 100vw;
+  background-color: #0EB4C1;
+}
+
+.sign {
+  text-decoration: none;
+  color: #fff;
+  background-color: #DE2E54;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-page-title {
+  margin-bottom: 16px; 
+  color: #fff; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.first-page-text {
+  margin-bottom: 48px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.second-page-title {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 56px;
+}
+
+.cards-list {
+  list-style: none;
+}
+
+.cards-iteam {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-bottom: 80px;
+}
+
+.cards-title {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.cards-text {
+  font-size: 16px;
+  color: #444444;
+}
+
+.cards-text-box {
+  margin-left: 64px;
+}
+
+.btn {
+  margin-left: 530px;
+}
+
+.third-section {
+  max-width: 100vw;
+  height: 253px;
+  background-color: #0EB4C1;
+  margin-top: 132px;
+  padding-top: 64px;
+}
+
+.third-section-title {
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin-right: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.btns {
+  margin-left: 512px;
+  margin-top: 52px;
+}
+
+
+.foter-bt {
+  max-width: 100vw;
+  background-color: #222222;
+}
+
+.foter-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foter-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.foter-iteam {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.foter-links {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 32px;
+}
+
+.foter-links:nth-child(5) {
+  margin-right: 0;
+}
